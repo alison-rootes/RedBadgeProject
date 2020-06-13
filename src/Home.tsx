@@ -392,8 +392,8 @@ return(
                         <img draggable="false" style={pokemonCardStyle} alt='Pokemon Card' src ={pokeCardImg}/>
                         {/* Pokemon Img */}
                         <img draggable="false" className ='pokeImg'style={pokeImgStyle} alt="pokeImg" src={pokeImgUrl} onClick={() => {
-                            setPokeNum(Math.round(Math.random() * 10*80.2))
-                            fetchPoke()
+                            // setPokeNum(Math.round(Math.random() * 10*80.2))
+                            // fetchPoke()
                             }}/>
                             <div style={{}}>
                                 <div style={{display:'flex', flexDirection:'column', position:'absolute',top:'53%',textAlign:'center', width:'100%',textShadow:'1px 1px 1px black'}}>
