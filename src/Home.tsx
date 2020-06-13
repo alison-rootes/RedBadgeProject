@@ -346,13 +346,6 @@ return(
         <img  draggable="false" style={pokemonLogoImg} alt="Pokemon Logo" src= {PokeLogo}/>
         {/* search bar */}
 
-
-
-    {/* <ReactAudioPlayer src={'./assets/pokemontheme.mp3'} autoPlay controls/> */}
-
-
-    
-        <div>
             <InputGroup>
 
         <br />
