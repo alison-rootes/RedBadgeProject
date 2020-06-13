@@ -317,7 +317,7 @@ return(
         {/* Pokemon Logo */}                       
         <img  draggable="false" style={pokemonLogoImg} alt="Pokemon Logo" src= {PokeLogo}/>
         {/* search bar */}
-        <div>
+        <div style={{width: '50vw', textAlign:'center', marginLeft: '25%git'}}>
             <InputGroup>
                 <InputGroupAddon addonType="prepend"></InputGroupAddon>
             <Input placeholder="Search the pokedex for YOUR favorite Pokemon" />
