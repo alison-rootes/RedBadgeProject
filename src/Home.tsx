@@ -345,13 +345,14 @@ return(
         {/* Pokemon Logo */}                       
         <img  draggable="false" style={pokemonLogoImg} alt="Pokemon Logo" src= {PokeLogo}/>
         {/* search bar */}
+        <div style={{width: '50vw', textAlign:'center', marginLeft: '25%git'}}>
 
 
     {/* <ReactAudioPlayer src={'./assets/pokemontheme.mp3'} autoPlay controls/> */}
 
 
     
-        <div>
+        {/* <div> */}
             <InputGroup>
                 <InputGroupAddon addonType="prepend"></InputGroupAddon>
             <Input placeholder="Search the pokedex for YOUR favorite Pokemon" style={{marginTop:'1%'}}  onChange={(e) =>{
@@ -376,16 +377,12 @@ return(
             <button onClick={(e) => fetchPoke()}>
                 Search!
             </button> : null
-
-
             }
         </div>
         {/* Gotta Fetch Em All Text */}
         <p style={gottaFetchEmAllStyle}>Gotta fetch( ) 'em all!</p>
         <div style={{ display:'flex', flexDirection:'row', justifyContent:'center'}}>
                 {/* Card Container */}
-
-
 
                 {showCard === true ? 
 
@@ -395,8 +392,7 @@ return(
                         <img draggable="false" style={pokemonCardStyle} alt='Pokemon Card' src ={pokeCardImg}/>
                         {/* Pokemon Img */}
                         <img draggable="false" className ='pokeImg'style={pokeImgStyle} alt="pokeImg" src={pokeImgUrl} onClick={() => {
-                            // setPokeNum(Math.round(Math.random() * 10*80.2))
-                            // fetchPoke()  
+               
                             }}/>
                             <div style={{}}>
                                 <div style={{display:'flex', flexDirection:'column', position:'absolute',top:'53%',textAlign:'center', width:'100%',textShadow:'1px 1px 1px black'}}>
@@ -451,4 +447,4 @@ return(
 )
 }
 
-export default Home
+export default Home;
