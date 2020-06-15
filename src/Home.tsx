@@ -101,7 +101,7 @@ const Home = () => {
     const [pokeName, setPokeName] = useState <string> ('')
 
     //Input Field/Search Field Value
-    const [inputFieldValue, setInputFieldValue]=useState <string>('151')
+    const [inputFieldValue, setInputFieldValue]=useState <string>('')
     //Pokemon Number
     const [pokeNum,setPokeNum] = useState<any>()
 
