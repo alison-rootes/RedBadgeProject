@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d97d54beef407cdd9ce718e98b11968",
+    "revision": "bfe10484275f4ffbb497511f9e5e0381",
     "url": "/RedBadgeProject/index.html"
   },
   {
-    "revision": "03b048e8ef7007a39496",
+    "revision": "e08727b09dc60b9c3ce6",
     "url": "/RedBadgeProject/static/css/main.577c463f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RedBadgeProject/static/js/2.dc072b75.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "03b048e8ef7007a39496",
-    "url": "/RedBadgeProject/static/js/main.7144ba29.chunk.js"
+    "revision": "e08727b09dc60b9c3ce6",
+    "url": "/RedBadgeProject/static/js/main.f1a5d31e.chunk.js"
   },
   {
     "revision": "3fab137cd0600977ac0d",
